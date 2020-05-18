@@ -1,4 +1,4 @@
-baseurl = "https://deltaepsilon.ca/"
+baseurl = "https://blog.deltaepsilon.ca/"
 title = "deltaepsilon"
 copyright = "Copyright &copy; 2020 - Hayden Lau"
 canonifyurls = true
