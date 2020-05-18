@@ -1,0 +1,23 @@
+baseurl = "https://deltaepsilon.ca/"
+title = "deltaepsilon"
+copyright = "Copyright &copy; 2020 - Hayden Lau"
+canonifyurls = true
+theme = "hugo-kiera"
+
+paginate = 3
+
+summaryLength = 30
+enableEmoji = true
+pygmentsCodeFences = true
+
+[author]
+    name = "Hayden Lau"
+    github = "lauhayden"
+    gitlab = ""
+    linkedin = ""
+    facebook = ""
+    twitter = ""
+    instagram = ""
+
+[params]
+    tagline = "Misadventures in tech"
