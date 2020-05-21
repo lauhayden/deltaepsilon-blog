@@ -31,7 +31,11 @@ Recently, I've migrated my personal infrastructure to DigitalOcean. Since Digita
     This one's a bit tricky. The API to change DNS records requires that you identify which record you want to change via a Record ID. However, DigitalOcean's online management site does not show this ID anywhere. You'll have to query the API directly using `curl`:
 
     ```sh
-    curl -X GET -H "Content-Type: application/json" -H "Authorization: Bearer {DigitalOcean personal access token}" "https://api.digitalocean.com/v2/domains/{Domain name: mysite.com}/records" | python -m json.tool
+    curl -X GET \
+         -H "Content-Type: application/json" \
+         -H "Authorization: Bearer {DigitalOcean personal access token}" \
+         "https://api.digitalocean.com/v2/domains/{Domain name: mysite.com}/records" \
+         | python3 -m json.tool
     ```
 
     Remember to fill out the token and domain parts. The pipe into Python is to get pretty-printing of the JSON and not strictly necessary. The response will list all your existing domain records, so you'll have to look for the `id` of the one corresponding to the subdomain you want to point to your dynamic IP.
