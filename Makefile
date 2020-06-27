@@ -1,6 +1,8 @@
 DEPLOY_USER = root
 DEPLOY_HOST = deneb2
 
+.PHONY: deploy serve
+
 serve:
 	hugo server
 
