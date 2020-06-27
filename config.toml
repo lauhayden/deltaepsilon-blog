@@ -9,6 +9,7 @@ paginate = 3
 summaryLength = 30
 enableEmoji = true
 pygmentsCodeFences = true
+pygmentsUseClasses = true
 
 #disqusShortname = "myShortName"
 
