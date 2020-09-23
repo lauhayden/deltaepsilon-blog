@@ -1,5 +1,5 @@
 DEPLOY_USER = root
-DEPLOY_HOST = deneb2
+DEPLOY_HOST = deneb
 
 .PHONY: deploy serve
 
