@@ -1,7 +1,10 @@
 DEPLOY_USER = root
 DEPLOY_HOST = deneb
 
-.PHONY: deploy serve
+.PHONY: build deploy serve clean
+
+build:
+	hugo -D
 
 serve:
 	hugo server
