@@ -1,7 +1,6 @@
 +++
 title = "AMD Radeon RX 5000 Series Freezing on Ubuntu 20.04 LTS"
 date = 2020-10-13T22:17:24-04:00
-images = []
 tags = []
 categories = []
 draft = false

@@ -1,7 +1,6 @@
 +++
 title = "Rip the Muse Dash Soundtrack"
 date = 2020-09-23T17:52:02-04:00
-images = []
 tags = []
 categories = []
 draft = false
