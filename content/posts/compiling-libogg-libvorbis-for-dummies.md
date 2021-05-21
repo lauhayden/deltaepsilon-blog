@@ -15,19 +15,15 @@ I don't have much experience with Visual Studio (I'm a linux/gcc person) so I wa
 1. Download Visual Studio 2019 Community installer from https://visualstudio.microsoft.com/downloads/
 
 2. Install Visual Studio 2019 Community, selecting the "Desktop Development with C++ option"
-
 ![Choose Visual Studio 2019 Community in the installer](/images/compiling-libogg-libvorbis-for-dummies/vs-install-1.png)
-
 ![Choose Desktop Development with C++ option](/images/compiling-libogg-libvorbis-for-dummies/vs-install-2.png)
 
 3. Download `libogg` and `libvorbis` from https://xiph.org/downloads/, extracting to the same folder. `libogg-x.y.z` and `libvorbis-x.y.z` folders should be side-by-side.
 
 4. Open `libogg-x.y.z/win32/VS2015/libogg.sln`. if there is an error saying that the project was not loaded, close Visual Studio and re-open.
-
 ![Re-open the solution file if you see a loading error](/images/compiling-libogg-libvorbis-for-dummies/loading-error.png)
 
 5. If prompted, accept the upgrade to Platform Toolset v142 and Windows SDK 10.0 (latest installed version). If no prompt appears, you can retarget to those options by right-clicking on `libogg` in the `Solution Explorer` pane, or by using the Project menu: `Project` > `Properties` > `All Configurations, All Platforms` > `Windows SDK Version & Platform Toolset`.
-
 ![Accept the upgrade prompt](/images/compiling-libogg-libvorbis-for-dummies/upgrade-prompt.png)
 
 6. Select Configuration and Platform in the toolbar up top. Select `Debug`/`Release` if you need a `.lib` to link against statically. Select `DebugDLL`/`ReleaseDLL` if you need a `.dll` to link against dynamically. `Win32` if you need 32-bit, otherwise `x64`.
