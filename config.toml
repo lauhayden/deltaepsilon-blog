@@ -1,50 +1,7 @@
-baseurl = "https://deltaepsilon.ca/"
+baseURL = "https://deltaepsilon.ca/"
+languageCode = "en-ca"
 title = "deltaepsilon"
-copyright = "&copy; 2020 Hayden Lau"
-canonifyurls = true
-theme = "hugo-kiera"
-
-paginate = 3
-
-summaryLength = 30
-enableEmoji = true
-pygmentsCodeFences = true
-pygmentsUseClasses = true
-
-#disqusShortname = "myShortName"
-
-# Note: to disable a social network icon delete or comment out the corresponding line
-[author]
-    name = "Hayden Lau"
-    github = "lauhayden"
-    email = "blog@deltaepsilon.ca"
-    # gitlab = ""
-    # linkedin = ""
-    # facebook = ""
-    # twitter = ""
-    # instagram = ""
+theme = "mataroa"
 
 [params]
-    tagline = "Misadventures in tech"
-    description = "A random personal blog."
-    #images = [""] #This is used for opengraph/twitter cards.
-    customCSS = []  #Optional Customised CSS
-    #favicon = ""
-    #utterancesRepo = "username/repository"
-    #utterancesIssueTerm = "pathname"
-    #homepageLength = 10
-    #commentAutoload = true  #This mean reader don't need click, disqus comment autoload
-
-# uncomment to enable the Tags link on the main toolbar
-#  [[menu.main]]
-#    identifier = "tags"
-#    name = "Tags"
-#    url = "/tags"
-#    weight = 1
-
-# uncomment to enable the Categories link on the main toolbar
-#  [[menu.main]]
-#    identifier = "categories"
-#    name = "Categories"
-#    url = "/categories"
-#    weight = 1
+    description = "Misadventures in technology"
