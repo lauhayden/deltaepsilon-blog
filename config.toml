@@ -4,7 +4,7 @@ title = "deltaepsilon"
 theme = "mataroa"
 
 [params]
-    description = "misadventures in technology"
+    description = ""
 
 [markup]
     [markup.highlight]
