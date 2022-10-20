@@ -5,3 +5,7 @@ theme = "mataroa"
 
 [params]
     description = "misadventures in technology"
+
+[markup]
+    [markup.highlight]
+        style = 'dracula'
