@@ -1,7 +1,7 @@
 # [deltaepsilon.ca](https://deltaepsilon.ca/)
 
 A personal blog created using the [Hugo](https://gohugo.io/) static site generator. The theme is a
-[slightly tweaked version of Kiera](https://github.com/lauhayden/hugo-kiera).
+[customized version of the mataroa Hugo export theme](https://git.sr.ht/~sirodoht/mataroa/tree/master/item/export_base_hugo).
 
 ## No analytics, no CDN
 
