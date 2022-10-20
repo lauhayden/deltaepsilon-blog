@@ -9,7 +9,8 @@
     {{- end }}
 
     <ul class="posts">
-        {{ range .Pages }}
+        {{ $posts := where site.RegularPages "Type" "posts" }}
+        {{ range $posts }}
         <li>
             <a href="{{ .Permalink }}">{{ .Title }}</a>
             <small>
@@ -24,6 +25,6 @@
 
 <footer>
     --
-    <br><a href="/rss.xml">RSS</a>
+    <br><a href="/index.xml">RSS</a>
 </footer>
 {{ end }}
