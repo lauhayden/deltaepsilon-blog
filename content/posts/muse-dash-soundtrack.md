@@ -6,11 +6,11 @@ categories = []
 draft = false
 +++
 
-# Update 2022-10-19
+## Update 2022-10-19
 
 **[I've made a tool that rips the soundtrack and more automatically. Download and enjoy!](https://github.com/lauhayden/musedash-ripper)**
 
-# Original article
+## Original Article
 
 I've started to play the excellent casual rhythm game [Muse Dash](https://store.steampowered.com/app/774171/Muse_Dash/). I love the music in that game, and wanted to rip the soundtrack to put into my own music collection. Obviously I can't share the soundtrack directly, but I can share the procedure I used. Fortunately, it turns out that ripping from the game is pretty easy!
 
